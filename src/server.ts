@@ -2,7 +2,7 @@ import express, { Request, Response } from 'express'
 import dotenv from "dotenv";
 import { Context, Telegraf } from 'telegraf';
 import { Update } from 'typegram';
-import bodyParser, { json } from 'body-parser';
+import bodyParser from 'body-parser';
 
 dotenv.config();
 
